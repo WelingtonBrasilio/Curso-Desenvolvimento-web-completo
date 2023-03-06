@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <title>Museu Nacional</title>
 </head>
 <body>
     <header><!--Inicio cabeçalho-->
         <div id="area-logo">
-            <img src="Assets/imagens/logo.png" alt="Logo-museu">
+            <img src="imagens/logo.png" alt="Logo-museu">
         </div>
         <div id="area-menu">
-            <nav class="menu">
+            <nav>
                 <ul>
                     <li>
                         <a href="#">home</a>
@@ -41,10 +42,117 @@
         </div>
     </header><!--Fim cabeçalho-->
     <main><!--Inicio principal-->
-        
+        <div class="container">
+            <section id="area-principal">
+                <img src="imagens/museu.png" alt="entrada-museu">
+                <div id="conteudo-principal">
+                    <article class="principal">
+                        <h3>video: conheça o museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </article>
+                    <article class="principal">
+                        <h3>mapa: encontre o museu</h3>
+                        <iframe width="310" height="170" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14700.825245036422!2d-43.226529!3d-22.90576!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d11e9a933d38ce3!2sNational%20Museum%20of%20Brazil!5e0!3m2!1sen!2sbr!4v1677862183764!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </article>
+                    <article class="principal">
+                        <h3>exposições</h3>
+                        <ul id="temas">
+                            <li>
+                                <a href="#">Os assustadores insetos</a>
+                            </li>
+                            <li>
+                                <a href="#">O crânio de Luzia, a mulher mais antiga do Brasil</a>
+                            </li>
+                            <li>
+                                <a href="#">Preguiça gigante e tigres-dentes-de-sabre</a>
+                            </li>
+                            <li>
+                                <a href="#">Plantas do Brasil Central</a>
+                            </li>
+                            <li>
+                                <a href="#">Teresa Cristina: A imperatriz Arqueóloga</a>
+                            </li>
+                            <li>
+                                <a href="#">Arte Com Dinossauros - Paleoarte</a>
+                            </li>
+                            <li>
+                                <a href="#" class="ultimo">Veja todos (65)</a>
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="principal">
+                        <h3>200 anos de história</h3>
+                        <div id="historia">
+                            <p>
+                                Numa ponta que avançava sobre o mar, posteriormente conhecida como Ponta do Calabouço, entre as praias de Piaçaba e Santa Luzia, no centro histórico do Rio de Janeiro, os portugueses construíram em 1603 a Fortaleza de Santiago, origem do conjunto arquitetônico que hoje abriga o Museu Histórico Nacional.
+                            </p>
+                            <a href="#">Leia mais</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <aside id="area-lateral">
+                <img src="imagens/depoimento.png" alt="depoimento">
+                <article id="visita">
+                    <h3>Faça uma visita</h3>
+                    <form id="reserva">
+                        <fieldset>
+                            <legend>Selecione uma data:</legend>
+                            <label for="data">Data</label>
+                            <input type="date" name="data" id="data">
+                            <label for="pessoas">Qtd pessoas</label>
+                            <input type="number" name="pessoas" value="1" min="1" id="pessoas">
+                        </fieldset>
+                        <input type="submit" value="verificar disponibilidade" id="submit">
+                    </form>
+                </article>
+                <article id="area-galeria">
+                    <h3>Galeria de Fotos</h3>
+                    <div id="galeria">
+                        <a href="">
+                            <img src="imagens/imagem1.jpg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="imagens/imagem2.jpg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="imagens/imagem3.jpg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="imagens/imagem4.jpg" alt="">
+                        </a>
+                    </div>
+                </article>
+            </aside>
+        </div>
     </main><!--Fim principal-->
     <footer><!--Inicio footer-->
-
-    </footer>
+        <nav id="menu-footer">
+            <ul>
+                <li>
+                    <a href="#">home</a>
+                </li>
+                <li>
+                    <a href="#">exposições</a>
+                </li>
+                <li>
+                    <a href="#">pesquisa</a>
+                </li>
+                <li>
+                    <a href="#">acervo</a>
+                </li>
+                <li>
+                    <a href="#">videos</a>
+                </li>
+                <li>
+                    <a href="#">fotos</a>
+                </li>
+                <li>
+                    <a href="#">contato</a>
+                </li>
+            </ul>
+        </nav>
+        <span>2019</span> <a href="index.html" id="museu">museu nacional</a><span>- Todos os direitos reservados</span>
+    </footer><!--Final footer-->
 </body>
 </html>
