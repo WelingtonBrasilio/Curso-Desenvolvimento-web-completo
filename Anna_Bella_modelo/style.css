@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url(imagens/fundo.png);
+    margin: 10px;
+    width: 900px;
+}
+
+/*Menu cabeçalho*/
+#area-menu{
+    background: #c5c5b2;
+    padding: 30px;
+}
+
+.itens{
+    list-style: none;
+    display: inline;
+    margin: 20px;
+    padding: 10px;
+}
+
+a{
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*Conteúdo*/
+.conteudo{
+    background:#e8e8d9;
+    padding: 10px;
+}
+
+h1{
+    color:#868664;
+    font-size: 20px;
+}
+
+.modelo{
+    border: 10px #c5c5b2 solid;
+    margin: 10px 0px 10px 0px;
+}
+
+/*Rodapé*/
+footer{
+    text-align: center;
+    padding: 10px;
+}

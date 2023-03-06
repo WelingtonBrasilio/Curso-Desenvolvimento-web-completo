@@ -1,0 +1,39 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+/**********Estilo Cabeçalho**********/
+header{
+    background: url(Assets/imagens/fundo.png);
+    height: 180px;
+    display: flex;
+}
+
+#area-logo{
+    padding: 40px;
+}
+
+#area-menu ul{
+    padding: 40px;
+    list-style: none;
+}
+
+#area-menu li{
+    display: inline;
+}
+
+#area-menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #af670a;
+    padding-right: 10px;
+}
+
+#area-menu li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #234918;
+}
+
+/**********Estilo Principal**********/

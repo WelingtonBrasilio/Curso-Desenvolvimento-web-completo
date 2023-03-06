@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(imagens/fundo.png) repeat-x;
+}
+
+#cabecalho{
+    width: 750px;
+    margin: 0 auto;
+}
+
+#imagem{
+    height: 150px;
+    padding-top: 20px;
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(imagens/logo.png) no-repeat center;
+    float: left;
+}
+
+.menu{
+    clear: both;
+}
+
+.menu li{
+    float:left
+}
+
+.menu-itens{
+    position: absolute;
+    top: 100px;
+    list-style: none;
+    line-height: 2.2em;
+    margin-top: 20px;
+    padding: 0;
+}
+
+
+.menu-itens a{
+    display: block;
+    padding: 0.2em 1.1em;
+    text-decoration: none;
+    color: #fff;
+    background: #b10333 url(imagens/divisor.png) no-repeat left center;
+}
+
+.menu-itens a:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+.primeiro a{
+    background: #b10333 none;
+}
+
+#home{
+    background: #de003e;
+    cursor: text;
+}
+
+#brasil{
+    background: #de003e;
+    cursor: text;
+}
+
+#fotos{
+    background: #de003e;
+    cursor: text;
+}
+
+/******ESTILO GERAL DA PAGINA MAIN -> INDEX******/
+
+main{
+    width: 750px;
+    margin: 0 auto;
+}
+
+#conteudo{
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+h2{
+    font-size: 1em;
+    background-color: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.box{
+    background: #f3f3f3 url(imagens/fundo-caixa.png);
+    margin: 10px 5px;
+    padding: 5px
+}
+
+.principais{
+    background: #fff;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.principais img{
+    width: 235px;
+    border: 3px solid #dfdfdf;
+}
+
+.principais a{
+    color: #b10333;
+}
+
+.principais a:hover{
+    color: #de003e;
+}
+
+.secundarios-noticias{
+    background: #fff;
+    margin-top: 5px;
+    padding: 5px;
+    list-style: none;
+}
+
+.secundarios-noticias li{
+    border-bottom: 1px solid #ccc;
+    height: 60px;
+    padding: 5px;
+}
+
+.secundarios-noticias li:hover{
+    background: #f3f3f3;
+    cursor: pointer;
+}
+
+.secundarios-noticias a{
+    text-decoration: none;
+}
+
+.secundarios-noticias a img{
+    width: 80px;
+    float: left;
+    margin: 5px;
+}
+
+.secundarios-noticias a h4{
+    text-transform: uppercase;
+    color: #3e7ab9;
+    font-size: 0.8em;
+    display: inline;
+}
+
+.secundarios-noticias a p{
+    color: #000;
+    font-size: 0.7em;
+}
+
+/******CONFIG CONTAINER LATERAL ESQUERDO******/
+#container-a{
+    width: 180px;
+    float: left;
+}
+
+.entrevistas{
+    list-style: none;
+    background-color: #fff;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+
+.entrevistas li a{
+    display: block;
+    border-bottom: 1px solid #f3f3f3;
+    line-height: 30px;
+    padding: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.entrevistas li:hover{
+    background: #f3f3f3;
+}
+
+.entrevistas a:hover{
+    color: #a1a1a1;
+    padding-left: 20px;
+    background: url(imagens/marcador.png) no-repeat left;
+}
+
+form{
+    background: #fff;
+    margin-top: 5px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input#email{
+    width: 80%;
+    padding: 5px;
+    cursor: pointer;
+    border-left: 2px solid #000;
+}
+
+input#submit{
+    color: #fff;
+    background: #b10333;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 2px 0;
+}
+
+/******CONTAINER CENTRAL******/
+#container-b{
+    width: 270px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#destaque-a{
+    text-transform: uppercase;
+    background: #b10333;
+    color: #fff;
+    font-size: 0.8em;
+    padding: 3px;
+    display: inline;
+}
+
+
+/******CONTAINER LATERAL DIREITO******/
+#container-c{
+    width: 270px;
+    float: left;
+}
+
+#destaque-b{
+    text-transform: uppercase;
+    background: #de003e;
+    color: #000;
+    font-size: 0.8em;
+    padding: 3px;
+    display: inline;
+}
+
+/******FORMATAÇÃO PAGINA BRASIL******/
+
+#container-brasil{
+    width: 560px;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#brasil-imagem{
+    width: 520px;
+}
+
+/******FORMATAÇÃO PAGINA FOTOS******/
+
+#conteudo-fotos{
+    margin-top: 70px;
+    background: #f5f5f5;
+}
+
+#container-fotos{
+    width: 750px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+#foto-imagem{
+    width: 710px;
+}
+
+/******FORMATAÇÃO DO RODAPÉ******/
+
+footer{
+    clear: both;
+    background: #294c71;
+}
+
+#copyright{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+    padding: 20px;
+}
+

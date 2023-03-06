@@ -1,0 +1,152 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #e6e6e6;
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/*Formatação cabeçalho*/
+header{
+    background: #f7b600;
+}
+
+#cabecalho{
+    height: 150px;
+    text-align: center;
+}
+
+.logo{
+    display: inline-flex;
+    padding: 20px;
+}
+
+span{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.dark{
+    color: #4e4e4e;
+}
+
+.light{
+    color: #ffffff;
+}
+
+#area-menu{
+    margin: 15px;
+}
+
+.itens, a{
+    display: inline;
+    list-style: none;
+}
+
+#cabecalho a{
+    padding: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#cabecalho a:hover{
+    color: #f7b600;
+    background-color: #ffffff;
+}
+
+/*Formatação Main e seu conteudo*/
+
+#principal{
+    width: 940px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/*Formatação dos artigos exibidos*/
+.conteudo{
+    width: 660px;
+    float: left;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+h2{
+    font-size: 20px;
+    color: #f7b600;
+}
+
+h6{
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.foto{
+    width: 620px;
+}
+
+
+/* Lateral*/
+.lateral{
+    width: 240px;
+    float: right;
+}
+
+.lateral-postagem-1{
+    padding: 5px;
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    background-color: #ffffff;
+}
+
+.lateral-postagem-2{
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 0.8em;
+    background-color: #ffffff;
+}
+
+h3{
+    color: #565656;
+    background-color: #cccccc;
+    padding: 5px;
+}
+
+.lateral-categoria{
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+.itens-lateral{
+    list-style: none;
+}
+
+/*Formatação links da Main*/
+.link-principal{
+    color: #f7b600;
+    text-decoration: none;
+}
+
+.link-principal:hover{
+    text-decoration: underline;
+}
+
+/*Formatação rodapé*/
+footer{
+    width: 920px;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #cccccc;
+}
