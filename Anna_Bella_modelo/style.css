@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 *{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
@@ -16,13 +16,12 @@ body{
 /*Menu cabeçalho*/
 #area-menu{
     background: #c5c5b2;
-    padding: 30px;
+    padding: 20px;
 }
 
-.itens{
+#area-menu li{
     list-style: none;
     display: inline;
-    margin: 20px;
     padding: 10px;
 }
 
