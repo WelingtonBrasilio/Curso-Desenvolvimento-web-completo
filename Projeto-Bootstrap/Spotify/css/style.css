@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/img/capa.png), url(/img/ruido.png), linear-gradient(50deg,rgb(196, 47, 131), rgba(138, 35, 188));
+}
