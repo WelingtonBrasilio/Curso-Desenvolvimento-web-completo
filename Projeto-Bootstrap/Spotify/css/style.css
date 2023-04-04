@@ -4,5 +4,57 @@
 }
 
 body{
-    background-image: url(/img/capa.png), url(/img/ruido.png), linear-gradient(50deg,rgb(196, 47, 131), rgba(138, 35, 188));
+    background-image: url(/img/capa.png), url(/img/ruido.png), linear-gradient(50deg,#ff426b, #8a23bc);
+    background-attachment: fixed;
 }
+
+header{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #9bf0e1;
+}
+
+.divisor{
+    width: 1px;
+    background: #fff;
+    margin: 10px 15px;
+}
+
+.btn-custom{
+    color: #ffffff;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    transition: background 0.4, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-roxo{
+    background: #7c25f8;
+}
+
+.btn-roxo:hover{
+    background: #6207e3;
+    color: #ffffff;
+}
+
+.btn-branco{
+    border: 2px solid #ffffff;
+}
+
+.btn-branco:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+}
+
+
