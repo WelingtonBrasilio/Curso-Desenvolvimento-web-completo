@@ -3,13 +3,21 @@
     padding: 0;
 }
 
-body{
-    background-image: url(/img/capa.png), url(/img/ruido.png), linear-gradient(50deg,#ff426b, #8a23bc);
-    background-attachment: fixed;
+html, body{
+    height: 100%;
+    overflow-x: hidden;
 }
 
+html, body {
+    background-image: url(/img/capa.png), url(/img/ruido.png), linear-gradient(50deg,#ff426b, #8a23bc);
+    background-attachment: fixed;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+
+/*Area de Nav e cabeçalho*/
 header{
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -24,6 +32,15 @@ header{
     width: 1px;
     background: #fff;
     margin: 10px 15px;
+}
+
+/*Area Carousel*/
+#carousel-home{
+    margin: 250px 0;
+}
+
+.capa{
+    text-align: center;
 }
 
 .btn-custom{
@@ -57,4 +74,84 @@ header{
     width: 5%;
 }
 
+/*Area conteudo*/
+.titulo{
+    font-size: 3em;
+}
 
+.roxo{
+    color: #7c25f8;
+    font-weight: 700;
+}
+
+/*Area App*/
+.rotacao{
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    padding-left: 60px;
+}
+
+.app-funcao{
+    color: #9bf0e1;
+}
+
+/*Area Footer*/
+footer{
+    background: #000000;
+    position: relative;
+}
+
+footer h4{
+    color: #919496;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
+}
+
+/* Extra small devices*/
+@media (max-width: 575.98px){
+    .btn-custom {
+        margin: 10px 15px;
+        font-size: 1em;
+    }
+}
+
+/* Small devices*/
+@media (min-width: 576px) and (max-width: 767.98px){
+    h1 {
+        font-size: 3em;
+    }
+    .btn-custom {
+        margin: 10px 15px;
+    }
+}
+
+/* Medium devices*/
+@media (min-width: 768px) and (max-width: 991.98px){
+	h1 {
+		font-size: 4em;
+	}
+}
+
+/* Large devices*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+	h1 {
+		font-size: 5em;
+	}
+}
+
+/* Extra large devices*/
+@media (min-width: 1200px){
+	h1 {
+		font-size: 6em;
+	}
+}
